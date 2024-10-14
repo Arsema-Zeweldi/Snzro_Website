@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Snzro</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+    <script src="script/one.js"></script>
+    
+  </head>
+  <body>
+
+    <div id="header"></div>
+    <div class="container">
+      <div>
+        <div class="tagline">Sustainably Made, Thoughtfully Crafted: Pillows and Toys for a Greener Tomorrow.</div>
+        <div class="description">At SNZRO, we believe that comfort and creativity should never come at the expense of our planet. That’s why we’re committed to transforming discarded fabrics into beautiful, eco-friendly pillows and toys that bring joy to your home while reducing waste. Each product is handcrafted with care, using recycled materials to ensure a minimal environmental footprint. </div>
+      </div>
+      <div class="image-row">
+        <img class="img-pillow" src="images/download.jpeg" alt="pillow">
+        <img class="img-bear" src="images/images.jpeg" alt="teddy-bear">
+      </div>
+      
+    </div>
+    
+    <script>
+      // Fetch the header content from header.html
+      fetch('header.html')
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById('header').innerHTML = data;
+          });
+    </script>
+    <footer class="footer"style="b">
+      <p>Snzro</p>
+    </footer>
+    
+  </body>
+</html>
