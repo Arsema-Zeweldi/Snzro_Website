@@ -1,2 +1,3 @@
 # Snzro_Website
-Website design for snzro
+
+Snzro is an Ethiopian start-up company that produces pillows and stuffed animals using recycled fabric.
